@@ -1,5 +1,7 @@
 # chai-in-viewport
 
+[![npm version](https://badge.fury.io/js/chai-in-viewport.svg)](https://badge.fury.io/js/chai-in-viewport)
+
 Chai plugin to check if a DOM element is currently within the visible viewport
 
 ## Introduction
@@ -27,6 +29,7 @@ In setup for your tests, import the plugin and enable it within `chai`
 ```js
 import chai from `chai`
 import chaiInViewport from `chai-in-viewpott`
+
 chai.use(chaiInViewport);
 ```
 
