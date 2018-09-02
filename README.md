@@ -1,5 +1,9 @@
 # chai-in-viewport
 
+Chai plugin to check if a DOM element is currently within the visible viewport
+
+## Introduction
+
 `chai-in-viewport` is an extension to the chai assertion library that provides new assertions to 
 assert that a DOM element is within the browser's currently visible viewport (i.e. is not scrolled
 out of view)
