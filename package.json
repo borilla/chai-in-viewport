@@ -1,0 +1,32 @@
+{
+  "name": "chai-in-viewport",
+  "version": "0.1.0",
+  "description": "Chai plugin to check if a DOM element is currently within the visible viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borilla/chai-in-viewport.git"
+  },
+  "keywords": [
+    "chai",
+    "dom",
+    "node",
+    "element",
+    "visible",
+    "visibility",
+    "viewport",
+    "window"
+  ],
+  "author": "borilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borilla/chai-in-viewport/issues"
+  },
+  "homepage": "https://github.com/borilla/chai-in-viewport#readme",
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}
