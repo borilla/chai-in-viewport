@@ -1,6 +1,6 @@
 {
   "name": "chai-in-viewport",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chai plugin to check if a DOM element is currently within the visible viewport",
   "main": "./dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   ],
   "author": "borilla",
   "license": "MIT",
-  "files":[
+  "files": [
     "/dist"
   ],
   "bugs": {
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/borilla/chai-in-viewport#readme",
   "devDependencies": {
-    "cypress": "^3.1.0"
+    "cypress": "^3.1.0",
+    "eslint-plugin-cypress": "^2.0.1"
   }
 }
