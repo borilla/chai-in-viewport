@@ -27,15 +27,15 @@ npm install chai-in-viewport
 In setup for your tests, import the plugin and enable it within `chai`
 
 ```js
-import chai from `chai`
-import chaiInViewport from `chai-in-viewpott`
+import chai from 'chai'
+import chaiInViewport from 'chai-in-viewport'
 
 chai.use(chaiInViewport);
 ```
 
 ## Assertions
 
-`chai-in-viewport` adds the `inViewport` assertion, that can be applied to a HTMLElement
+`chai-in-viewport` adds the `inViewport` assertion, that can be applied to an HTMLElement
 
 ```js
 expect(element1).to.be.inViewport
@@ -59,6 +59,3 @@ If using [cypress.io](https://www.cypress.io/), I would suggest using a combinat
 ```js
 cy.get('#el').should('be.visible.and.inViewport');
 ```
-
-Cypress's visiblility code does a good job of determining visibility but is [_very complicated_](https://github.com/cypress-io/cypress/blob/master/packages/driver/src/dom/visibility.coffee)
-and I wouldn't like to try to replicate it elsewhere(!)

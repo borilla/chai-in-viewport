@@ -1,6 +1,6 @@
 {
   "name": "chai-in-viewport",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chai plugin to check if a DOM element is currently within the visible viewport",
   "main": "./dist/index.js",
   "scripts": {
