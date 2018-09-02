@@ -4,7 +4,9 @@
   "description": "Chai plugin to check if a DOM element is currently within the visible viewport",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "npm run cypress:run"
   },
   "repository": {
     "type": "git",
