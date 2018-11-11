@@ -6,8 +6,8 @@ Chai plugin to check if a DOM element is currently within the visible viewport
 
 ## Introduction
 
-`chai-in-viewport` is an extension to the chai assertion library that provides new assertions to 
-assert that a DOM element is within the browser's currently visible viewport (i.e. is not scrolled
+`chai-in-viewport` is an extension to the chai assertion library that provides a new assertion to 
+check if a DOM element is within the browser's currently visible viewport (i.e. is not scrolled
 out of view)
 
 It is intended for use in integration tests that run in a browser or browser-like environment (e.g.
@@ -47,14 +47,14 @@ expect(element2).to.not.be.inViewport
 The `inViewport` assertion currently simply tests the element's
 [`getBoundingClientRect`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 against the [`documentElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement)'s
-`clientWidth` and `clientHeight`. It does not test whether the element is clipped by its parents, if
+`clientWidth` and `clientHeight`. It does not check whether the element is clipped by its parents, if
 it has `visibility: hidden`, `opacity: 0`, is obscured by another element or is otherwise hidden from
 view on the screen
 
 ### Testing for visibility in cypress.io
 
 If using [cypress.io](https://www.cypress.io/), I would suggest using a combination of
-`visible` and `inViewport` assertions
+`visible` and `inViewport` assertions, which will check for the above limitations
 
 ```js
 cy.get('#el').should('be.visible.and.inViewport');
