@@ -53,8 +53,8 @@ view on the screen
 
 ### Testing for visibility in cypress.io
 
-If using [cypress.io](https://www.cypress.io/), I would suggest using a combination of
-`visible` and `inViewport` assertions, which will check for the above limitations
+If using [cypress.io](https://www.cypress.io/), it may be useful to use a combination of
+`visible` and `inViewport` assertions, which will also check for the above limitations
 
 ```js
 cy.get('#el').should('be.visible.and.inViewport');
