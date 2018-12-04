@@ -11,7 +11,7 @@ check if a DOM element is within the browser's currently visible viewport (i.e. 
 out of view)
 
 It is intended for use in integration tests that run in a browser or browser-like environment (e.g.
-[cypress.io](https://www.cypress.io/)). It assumes access to `HTMLElment`, `document` and
+[cypress.io](https://www.cypress.io/)). It assumes access to `HTMLElement`, `document` and
 `window` objects
 
 ## Installation
